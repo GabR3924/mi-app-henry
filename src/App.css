@@ -1,38 +1,143 @@
+
+*{
+   background:rgb(255, 153, 0);
+}
+
 .App {
-  text-align: center;
+   min-height: 100vh;
+   text-align: center;
+   background: rgb(0,0,0);
+background: linear-gradient(187deg, rgba(0,0,0,1) 19%, rgba(9,29,10,1) 50%, rgba(16,87,19,1) 100%);
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.card{
+   width: 50%;
+   margin-left: 15%;
+   background: green;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.cards{
+   background: transparent;
+   /* border:2px solid snow ; */
+   margin-left: 35px;
+   margin-left: 25px;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+.cardsUno{
+   background: none;
+   display: flex;
+   justify-content: center;
+   margin: 0;
 }
 
-.App-link {
-  color: #61dafb;
+.cardP{
+    background: none;
+    
+   
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.cardPp{
+   
+   background:none;
+   width: 65%;
+   height: 120%; 
+   background: rgb(255, 255, 255);
+   border: 2px solid rgba(143, 143, 143, 0.353);
+   border-radius: 2.5rem;
+   overflow: hidden;  
 }
+
+.cardPp:hover{
+   box-shadow: 0 0 20px rgb(1, 121, 1);
+}
+
+/* boton */
+.boton{
+   margin-top: 4%;
+   margin-left: 70%;
+   color: green;
+   background: none;
+   border-radius: .5rem;
+   border-color: green;
+}
+.boton:hover{
+   color: rgba(255, 0, 0, 0.551);
+   border-color: rgb(153, 7, 7);
+}
+
+/* nombre */
+.nombre{
+   color: rgb(0, 0, 0);
+   font-size: 28px;
+   background: none;
+}
+
+/* h2 */
+.especie{
+   display: none;
+   position: absolute;
+   margin-left: 12%;
+   color: rgb(0, 0, 0);
+   width: 5%;
+   background: none;
+}
+
+/* genero */
+.genero{
+   display: none;
+   position: absolute;
+   margin-left: 2%;
+   color: rgb(0, 0, 0);
+   width: 10%;
+   background: none;
+}
+/* imagen */
+
+.img{
+   width: 65%;
+   border-radius: 10rem;
+   
+   box-shadow: 0 0 50px green;
+}
+
+
+/* nav */
+.navC{
+   background: none;
+}
+.nav{
+   position: relative;
+   height: 80px;
+   margin: 3%;
+   border-radius: 5rem;
+   border:1px solid white;
+   background: rgba(116, 115, 115, 0);
+   
+}
+
+.input{
+   margin-left: 60%;
+   font-size:16px;
+   padding: 1.5%;
+   height: 30px;
+   border-radius: 5rem;
+   background-color: white;
+   border-color: white;
+}
+
+.button{
+   margin: 2%;
+   padding: 10px;
+   border-radius: 5rem;
+   color: white;
+   border-color: white;
+   background: none;
+}
+.button:hover{
+   color: green;
+   border-color: green;
+}
+
+
+
+
